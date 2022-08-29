@@ -1,8 +1,69 @@
 body{
-    background-color:aquamarine;
-    border: 5px solid black;
+    
+    
 }
 
-section{
-    border: 5px solid greenyellow; 
+/* top of page, header */
+#heading{
+    border: 5px solid limegreen;
+    background-color: lightgray;
+    text-align: center;
 }
+#heading>h1{
+    
+}
+#heading>p{
+    
+}
+
+/* main body section */
+#main_body{
+    border: 2px solid black;
+}
+
+
+/* left side of screen (red box) */
+.left-side{
+    border: 2px solid black;
+    width: 45%;
+    /* max-height: fit-content; */
+    height: 500px;
+    float:left;
+}
+#form{
+    border: 5px solid red;
+    height: 480px;
+    margin: 1% 10% 0% 20%;
+    /* text-align: center; */
+}
+
+#form>form{
+    margin: 0% 20% 0% 20%;
+
+}
+
+/* right side of screen (blue box) */
+.right-side{
+    width:55%;
+    border: 2px solid black;
+    height: 500px;
+    float:right;
+
+}
+#card{
+    border:5px solid blue;
+    height: 480px;
+    margin: 1% 20% 0% 6%;
+}
+
+#card>.card_heading{
+    border: 5px solid purple;
+    margin: 1% 4% 2% 4%;
+}
+
+#card>.card_container{
+    border: 5px solid yellow;
+    height: 400px;
+    margin: 1% 4% 2% 4%;
+}
+
