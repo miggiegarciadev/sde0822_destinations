@@ -7,6 +7,8 @@
     <title>Destinations</title>
 
     <!-- Reset CSS -->
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css"
@@ -25,8 +27,70 @@
   </head>
 
   <body>
-    <section>Section 1</section>
-    <section>Section 2</section>
+    <!-- top of screen (green box) -->
+    <div id="heading">
+      <section>
+        <h1>Vaction Destinations WishList</h1>
+        <p>
+          Found exciting places to visition on your next vacation? Use the form
+          below to add them to your wishlist
+        </p>
+      </section>
+    </div>
+
+    <!-- body of website  -->
+    <div id="main_body">
+      <!-- left side of screen, (redbox) -->
+      <div class="left-side">
+        <section id="form">
+          <form>
+            <label for="destination">Destination name</label><br />
+            <input
+              type="text"
+              id="destionation"
+              name="destination"
+              placeholder="Enter the name of the destination"
+            /><br />
+
+            <label for="location">Location</label><br />
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="Where is it located?"
+            /><br />
+
+            <label for="photo">Photo</label><br />
+            <input
+              type="url"
+              id="photo"
+              name="photo"
+              placeholder="Enter an image url of the place"
+            /><br />
+
+            <label for="destination">Description</label><br />
+            <input
+              type="text"
+              id="description"
+              name="description"
+              placeholder="Where is it located?"
+            /><br />
+
+            <input type="submit" value="Add to list" />
+          </form>
+        </section>
+      </div>
+
+      <!-- right side of screen (blue box) -->
+      <div class="right-side">
+        <section id="card">
+          <section class="card_heading">
+            <p>Enter destination details</p>
+          </section>
+          <section class="card_container"></section>
+        </section>
+      </div>
+    </div>
 
     <!-- Bootstrap JS Script -->
     <script
